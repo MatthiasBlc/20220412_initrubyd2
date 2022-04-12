@@ -5,7 +5,7 @@ if n < 26 and n > 0
   i=0
   while i <= n-1
     i +=1
-      puts ( "#" * i).rjust(n+1)
+      puts ( "#" * i).rjust(n)
   end
 else
   puts 'Votre nombre n’est pas entre 1 et 25.'
